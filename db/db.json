@@ -1,0 +1,82 @@
+{
+  "users": [
+    {
+      "id": "admin1",
+      "username": "admin1",
+      "password": "123456",
+      "email": "mandev1@abc.com",
+      "role": "admin"
+    },
+    {
+      "id": "user1",
+      "username": "user1",
+      "password": "123456",
+      "email": "mandev2@abc.com",
+      "role": "user"
+    },
+    {
+      "id": "employee1",
+      "username": "employee1",
+      "password": "123456",
+      "email": "employee1@abc.com",
+      "role": "employee"
+    },
+    {
+      "id": "admin1",
+      "username": "admin1",
+      "password": "123456",
+      "email": "andev1@abc.com"
+    },
+    {
+      "id": "sdsds",
+      "username": "sdsds",
+      "password": "asas",
+      "email": "sdsds@gmail.com",
+      "isRegisterSuccess": false
+    },
+    {
+      "id": "bdd3",
+      "username": "admin1",
+      "password": "123456"
+    },
+    {
+      "id": "ba81",
+      "username": "admin1",
+      "password": "123456"
+    },
+    {
+      "id": "204d",
+      "username": "admin1",
+      "password": "123456"
+    }
+  ],
+  "permissions": [
+    {
+      "role": "admin",
+      "page": "customer",
+      "access": true,
+      "create": true,
+      "update": true,
+      "delete": true,
+      "id": "800f"
+    },
+    {
+      "role": "user",
+      "page": "customer",
+      "access": false,
+      "create": false,
+      "update": false,
+      "delete": false,
+      "id": "f205"
+    },
+    {
+      "role": "employee",
+      "page": "customer",
+      "access": true,
+      "create": true,
+      "update": true,
+      "delete": false,
+      "id": "2fb1"
+    }
+  ]
+}
